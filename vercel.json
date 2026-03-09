@@ -1,6 +1,12 @@
 {
-  "buildCommand": "cd Ahmed-Salem-Portfolio/client && npm install && npm run build",
-  "outputDirectory": "Ahmed-Salem-Portfolio/client/dist",
-  "installCommand": "echo skip",
-  "framework": null
+  "version": 2,
+  "builds": [
+    {
+      "src": "Ahmed-Salem-Portfolio/client/package.json",
+      "use": "@vercel/static-build",
+      "config": {
+        "distDir": "dist"
+      }
+    }
+  ]
 }
