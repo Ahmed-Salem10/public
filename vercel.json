@@ -1,5 +1,6 @@
 {
-  "buildCommand": "npm install && npm run build",
-  "outputDirectory": "dist",
+  "buildCommand": "cd Ahmed-Salem-Portfolio/client && npm install && npm run build",
+  "outputDirectory": "Ahmed-Salem-Portfolio/client/dist",
+  "installCommand": "echo skip",
   "framework": null
 }
